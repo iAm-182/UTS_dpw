@@ -4,7 +4,7 @@
             <div class="col center">
                 <router-link to="/list-user">
                     <div>
-                        User<hr class="uline-green">
+                        User<hr class="uline-grey">
                     </div>
                 </router-link>
             </div>
@@ -44,9 +44,9 @@
                 </router-link>
             </div>
             <div class="col center">
-                <router-link to="/cart">
+                <router-link to="/list-notification">
                     <div>
-                        Notification<hr class="uline-grey">
+                        Notification<hr class="uline-green">
                     </div>
                 </router-link>
             </div>

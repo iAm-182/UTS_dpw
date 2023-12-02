@@ -35,6 +35,10 @@
     border: 1px solid #D1D1D1; margin: 5px 0;
 }
 
+.uline-black {
+    border: 1px solid #000000; margin-right: 87%;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -133,6 +137,39 @@ td {
     border: 1px solid #ddd;
 }
 
+.form-text-area {
+    height: 140px;
+    padding: 10px;
+    margin-top: 0px;
+    width: 98%;
+    border-radius: 5px; 
+    border: 1px solid #ddd;
+    resize: none;
+
+  }
+  
+  .form-datetime-local {
+    display: block;
+    width: 98%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    /* display: none; */
+
+  }
+
+  /* input[type="datetime-local"] {
+    display: block;
+    width: 98%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="datetime-local"]::placeholder {
+    font-style: italic;
+} */
+
 .form-select {
     display: block;
     width: 100%;
@@ -156,6 +193,24 @@ td {
 
 .label-blue {
     background-color: #a7d3f3; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    color: #014935; 
+    font-weight: 500;
+}
+
+.label-red {
+    background-color: red; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    color: #014935; 
+    font-weight: 500;
+}
+
+.label-pink {
+    background-color: rgb(255, 0, 242); 
     padding: 10px 20px; 
     border-radius: 5px; 
     font-size: 14px; 
